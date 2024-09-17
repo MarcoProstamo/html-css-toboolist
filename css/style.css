@@ -37,3 +37,43 @@ body {
     font-weight: bolder;
     font-size: 5rem;
 }
+
+/* Container */
+
+.main-container {
+    background-color: white;
+    width: 80%;
+    margin: 80px auto;
+}
+
+.button-container {
+    padding-left: 30px;
+    border-bottom: 2px solid #E6EAED;
+}
+
+.task-container {
+    padding-left: 30px;
+}
+
+/* Button */
+
+.button-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.standard-button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.task-button {
+    background-color: rgb(73, 172, 238);
+    color: white;
+}
+
+.section-button {
+    background-color: transparent;
+    color: rgb(148, 148, 148);
+}
