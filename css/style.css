@@ -14,12 +14,12 @@ img {
 
 body {
     background-color: #E6EAED;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Header */
 
 .page-header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     line-height: 5rem;
     padding: 10px 20px;
@@ -49,17 +49,19 @@ body {
 .button-container {
     padding-left: 30px;
     border-bottom: 2px solid #E6EAED;
+    height: 80px;
+    line-height: 80px;
 }
 
 .task-container {
     padding-left: 30px;
+    margin-top: 30px;
 }
 
 /* Button */
 
 .button-section {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    vertical-align: middle;
 }
 
 .standard-button {
@@ -76,4 +78,73 @@ body {
 .section-button {
     background-color: transparent;
     color: rgb(148, 148, 148);
+}
+
+/* Task */
+
+task {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.task-list {
+    font-size: 1rem;
+}
+
+.task-item {
+    list-style: none;
+    margin: 15px 0;
+}
+
+section:last-child {
+    padding-bottom: 30px;
+}
+
+.check {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #73bda4;
+    color: #73bda4;
+    padding: 1px 6px;
+}
+
+.cross {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 0, 0);
+    color: red;
+    padding: 1px 6px;
+}
+
+.standard-label {
+    border-radius: 8px;
+    padding: 3px 6px;
+    color: white;
+    font-size: .8rem;
+}
+
+/* Label */
+
+.editorial-label {
+    background-color: lightblue;
+}
+
+.recruiting-label {
+    background-color: #64bfa5;
+}
+
+.q1goals-label {
+    background-color: #9a73e0;
+}
+
+.mobile-label {
+    background-color: #e89b3d;
+}
+
+.website-label {
+    background-color: #d6649a;
+}
+
+.sales-label {
+    background-color: #afc825;
 }
