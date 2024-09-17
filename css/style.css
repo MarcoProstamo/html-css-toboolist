@@ -9,3 +9,31 @@
 img {
     max-width: 100%;
 }
+
+/* Body */
+
+body {
+    background-color: #E6EAED;
+}
+
+/* Header */
+
+.page-header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    line-height: 5rem;
+    padding: 10px 20px;
+}
+
+.align-vertical {
+    vertical-align: middle;
+}
+
+.title-image {
+    width: 100px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 5rem;
+}
